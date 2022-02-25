@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Profile Info"
+        android:textStyle="bold"
+        android:textSize="@dimen/medium_text_size"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="@dimen/medium_text_size"
+        />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:hint="enter name"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Email"
+        android:textStyle="bold"
+        android:textSize="@dimen/medium_text_size"
+        />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:hint="enter email"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mobile"
+        android:textStyle="bold"
+        android:textSize="@dimen/medium_text_size"
+        />
+
+    <EditText
+        android:id="@+id/edt_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:hint="add mobile"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/postcode"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Postal Code            State"
+        android:textStyle="bold"
+        android:textSize="@dimen/medium_text_size"
+        />
+
+    <EditText
+        android:id="@+id/edt_postcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:hint="add postcode             State"
+        android:minHeight="48dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/province"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:text="State"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="@dimen/medium_text_size"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/edt_state"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:gravity="left"-->
+<!--        android:hint="State"-->
+<!--        android:minHeight="48dp" />-->
+<!--    -->
+
+</LinearLayout>

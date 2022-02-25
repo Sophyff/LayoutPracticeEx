@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background"/>
+    <RelativeLayout
+        android:id="@+id/controls"
+        android:visibility="visible"
+        android:background="#8800000"
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            android:layout_centerInParent="true"
+            />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            />
+
+
+
+    </RelativeLayout>>
+
+</FrameLayout>

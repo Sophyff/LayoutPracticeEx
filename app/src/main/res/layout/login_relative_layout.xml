@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/edt_email"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_login_24"
+        />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:gravity="center"
+        android:hint="@string/email"
+        />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_below="@+id/edt_email"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:gravity="center"
+        android:hint="@string/password"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="italic"
+        android:textColor="@color/gold_yellow"
+        android:backgroundTint="@color/black"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FBFD">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#FDD5E6"
+        android:hint="Enter your email.."
+        android:padding="5dp"
+        android:textColorHint="@color/purple_700"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@id/gd4"
+        app:layout_constraintStart_toEndOf="@id/gd3"
+        app:layout_constraintTop_toBottomOf="@id/gd1" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#FDD5E6"
+        android:hint="Enter your password.."
+        android:padding="5dp"
+        android:textColorHint="@color/purple_700"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@id/gd4"
+        app:layout_constraintStart_toEndOf="@id/gd3"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:progressBackgroundTint="#291061"
+        android:progressDrawable="@drawable/ic_baseline_all_inclusive_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="#FA5085"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Login"
+        android:textColor="#211259"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/gd2"
+        app:layout_constraintEnd_toStartOf="@id/gd4"
+        app:layout_constraintStart_toEndOf="@id/gd3" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@id/gd1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gd2" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        app:layout_constraintEnd_toStartOf="@id/gd3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gd4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
